@@ -14,8 +14,8 @@ jobs:
         with:
           input_path: ./
           output_dir: pdfs
-          images_dir: ./assets/images
-          image_import: assets/images
+          images_dir: images
+          image_import: images
           build_html: false
       - uses: actions/upload-artifact@v3
         with:
